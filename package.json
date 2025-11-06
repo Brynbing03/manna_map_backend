@@ -1,0 +1,19 @@
+{
+  "name": "manna-map-api",
+  "version": "1.0.0",
+  "description": "Express API for Manna Map connected to TiDB Cloud",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Fiona Barnett",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.3"
+  }
+}
